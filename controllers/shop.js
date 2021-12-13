@@ -103,9 +103,9 @@ exports.postOrder = asyncWrapper(async (req, res = response, next) => {
       date_created: Date.now(),
     },
     back_urls: {
-      success: "http://localhost:4200/success",
-      failure: "http://localhost:4200/failure",
-      pending: "http://localhost:4200",
+      success: "143.198.236.202:3000/success",
+      failure: "143.198.236.202:3000/failure",
+      pending: "143.198.236.202:3000",
     },
     auto_return: "approved",
     shipments: {
